@@ -6,7 +6,9 @@
   <img src="docs/assets/ai-generated-label-black.svg" alt="Yapay zekâ ile üretildi" width="240">
 </p>
 
-Codex masaüstü uygulaması için hazırlanmış, resmî olmayan ve hayran yapımı animasyonlu Bonzi pet paketidir. Codex marketplace plugin’i, prompt ile çalışan kurulum becerisi, macOS/Linux ve Windows kurucuları ve doğrulanmış v2 pet dosyalarını içerir.
+<p align="center"><strong>🍌 Mor masaüstü gorili, muz enerjisiyle geri döndü.</strong></p>
+
+Bonzi’nin neşeli mor goril görünümünden ve meşhur muzundan esinlenen, Codex masaüstü uygulaması için hazırlanmış resmî olmayan ve hayran yapımı animasyonlu pet paketidir. Codex marketplace plugin’i, prompt ile çalışan kurulum becerisi, macOS/Linux ve Windows kurucuları ve doğrulanmış v2 pet dosyalarını içerir.
 
 > Bu paket **Codex masaüstü peti** kurar. Normal ChatGPT web arayüzüne Bonzi eklemez.
 
@@ -14,6 +16,7 @@ Codex masaüstü uygulaması için hazırlanmış, resmî olmayan ve hayran yap�
 
 ## İçerik
 
+- Küçük masaüstü pet hücrelerinde okunaklı, muz seven mor goril tasarımı
 - 8×11 Codex v2 atlası (`1536×2288`, saydam WebP)
 - 9 standart animasyon durumu
 - Saat yönünde 16 bakış yönü
@@ -112,5 +115,15 @@ Windows:
 ```bash
 python3 scripts/validate_repo.py
 ```
+
+Repo doğrulayıcısı plugin/marketplace yapısını, manifest değerlerini, hashleri ve WebP boyutlarını kontrol eder.
+
+## Yön QA
+
+![Bonzi bakış yönleri](plugins/bonzi-for-chatgpt/assets/qa/look-directions.png)
+
+Muz, Bonzi’nin görsel esin kaynaklarından biridir; animasyon atlası ise her hareketin ve bakış yönünün pet boyutunda net kalması için temiz, okunaklı goril siluetine odaklanır.
+
+## Lisans ve marka notu
 
 Kod ve özgün dokümantasyon MIT lisanslıdır. Bonzi karakteri, adı, referans görselleri ve türetilmiş sprite çizimi MIT kapsamına dahil değildir. Proje Bonzi Software, OpenAI veya ChatGPT ile bağlantılı ya da onlar tarafından onaylanmış değildir. Ayrıntılar: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

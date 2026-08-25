@@ -6,7 +6,9 @@
   <img src="docs/assets/ai-generated-label-black.svg" alt="AI generated" width="240">
 </p>
 
-An unofficial, fan-made animated Bonzi pet package for the Codex desktop app. It includes a Codex marketplace plugin, a prompt-driven installer skill, direct macOS/Linux and Windows installers, and the validated v2 pet assets.
+<p align="center"><strong>🍌 The purple desktop gorilla is back—with banana energy.</strong></p>
+
+An unofficial, fan-made animated Bonzi pet package for the Codex desktop app. Inspired by the cheerful purple gorilla and his signature banana, it includes a Codex marketplace plugin, a prompt-driven installer skill, direct macOS/Linux and Windows installers, and the validated v2 pet assets.
 
 > This installs a **Codex desktop pet**. It does not add Bonzi to the regular ChatGPT web interface.
 
@@ -14,6 +16,7 @@ An unofficial, fan-made animated Bonzi pet package for the Codex desktop app. It
 
 ## What is included
 
+- A banana-loving purple gorilla designed for small desktop-pet cells
 - 8×11 Codex v2 atlas (`1536×2288`, transparent WebP)
 - 9 standard animation states
 - 16 clockwise look directions
@@ -118,6 +121,8 @@ The repository validator checks plugin/marketplace structure, manifest values, h
 ## Direction QA
 
 ![Bonzi look directions](plugins/bonzi-for-chatgpt/assets/qa/look-directions.png)
+
+The banana is part of Bonzi's visual inspiration; the animation atlas focuses on a clean, readable gorilla silhouette so every motion and look direction remains clear at pet size.
 
 ## License and trademark notice
 

@@ -1,0 +1,19 @@
+Install the Bonzi pet in the Codex desktop app. Perform the entire operation with your own local file and terminal tools; do not ask me to open the Terminal app or manually run any command.
+
+Use the immutable v1.0.0 GitHub release. Download only these two files:
+
+1. pet.json
+https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
+
+2. spritesheet.webp
+https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
+
+Expected SHA-256 values:
+- pet.json: 5aab8bddc9e0cd01042b6667843abe1a38bb049b94c9e1bbc081bc57bd5e9a0b
+- spritesheet.webp: 6171db4dffa833c4ed6d1cde4828753f92a4209498431502b0860fc5dfbcc145
+
+Download both files into a newly created temporary directory first. If network or filesystem access needs permission, show the normal Codex approval request and continue after approval. If either SHA-256 value does not match exactly, install or change nothing and report the error. Parse pet.json and verify that id is "bonzi", spriteVersionNumber is 2, and spritesheetPath is "spritesheet.webp".
+
+The installation destination is pets/bonzi inside CODEX_HOME when CODEX_HOME is set; otherwise use $HOME/.codex/pets/bonzi on macOS/Linux or .codex\pets\bonzi inside the Windows user profile. If the destination already contains both files with the expected hashes, make no changes and report that the installation is ready. If pet.json or spritesheet.webp differs, copy only those existing files into a timestamped bonzi-backup-* directory beside the pet directory; do not delete or change other pets, unexpected files, or Codex settings. This prompt explicitly authorizes backing up and replacing those two Bonzi files with the verified release.
+
+Install the verified files, recheck both installed SHA-256 values, and report the exact destination, whether a backup was created, and the final verification result. Finally, tell me to relaunch the Codex desktop app if the pet is not visible yet.

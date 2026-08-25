@@ -1,0 +1,19 @@
+Codex masaüstü uygulamasına Bonzi petini kur. İşlemin tamamını kendi yerel dosya ve terminal araçlarınla yap; benden Terminal uygulamasını açmamı veya herhangi bir komutu elle çalıştırmamı isteme.
+
+Kaynak, GitHub'daki sabit v1.0.0 sürümüdür. Yalnızca şu iki dosyayı indir:
+
+1. pet.json
+https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
+
+2. spritesheet.webp
+https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
+
+Beklenen SHA-256 değerleri:
+- pet.json: 5aab8bddc9e0cd01042b6667843abe1a38bb049b94c9e1bbc081bc57bd5e9a0b
+- spritesheet.webp: 6171db4dffa833c4ed6d1cde4828753f92a4209498431502b0860fc5dfbcc145
+
+Dosyaları önce yeni bir geçici klasöre indir. Ağ veya dosya sistemi izni gerekirse normal Codex izin isteğini göster ve izin verildikten sonra devam et. Her iki SHA-256 değeri birebir eşleşmezse hiçbir şeyi kurma veya değiştirme; hatayı bildir. pet.json dosyasını ayrıştırıp id değerinin "bonzi", spriteVersionNumber değerinin 2 ve spritesheetPath değerinin "spritesheet.webp" olduğunu doğrula.
+
+Kurulum hedefi, CODEX_HOME tanımlıysa onun altındaki pets/bonzi klasörü; tanımlı değilse macOS/Linux için $HOME/.codex/pets/bonzi, Windows için kullanıcı profilindeki .codex\pets\bonzi klasörüdür. Hedefte aynı hashli iki dosya zaten varsa değişiklik yapma ve kurulumun hazır olduğunu bildir. Farklı pet.json veya spritesheet.webp varsa yalnızca bu mevcut iki dosyayı pets klasörü altında zaman damgalı bonzi-backup-* klasörüne kopyala; başka petleri, beklenmeyen dosyaları veya Codex ayarlarını silme/değiştirme. Bu prompt, söz konusu iki Bonzi dosyasını yedekleyip doğrulanmış sürümle değiştirmene açıkça izin verir.
+
+Doğrulanmış dosyaları hedefe kur, kurulum sonrasında iki dosyanın SHA-256 değerlerini tekrar kontrol et ve tam hedef yolu, yedek oluşturulup oluşturulmadığını ve doğrulama sonucunu bildir. Son olarak pet görünmüyorsa Codex masaüstü uygulamasını yeniden başlatmam gerektiğini söyle.

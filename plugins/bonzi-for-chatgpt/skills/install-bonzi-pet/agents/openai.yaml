@@ -1,0 +1,4 @@
+interface:
+  display_name: "Install Bonzi Pet"
+  short_description: "Install the bundled Bonzi pet in Codex"
+  default_prompt: "Use $install-bonzi-pet to install the bundled Bonzi pet into Codex and verify it."

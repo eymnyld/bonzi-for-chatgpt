@@ -3,10 +3,10 @@ Codex masaüstü uygulamasına Bonzi petini kur. İşlemin tamamını kendi yere
 Kaynak, GitHub'daki sabit v1.0.0 sürümüdür. Yalnızca şu iki dosyayı indir:
 
 1. pet.json
-https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
+https://raw.githubusercontent.com/eymnyld/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
 
 2. spritesheet.webp
-https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
+https://raw.githubusercontent.com/eymnyld/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
 
 Beklenen SHA-256 değerleri:
 - pet.json: 5aab8bddc9e0cd01042b6667843abe1a38bb049b94c9e1bbc081bc57bd5e9a0b

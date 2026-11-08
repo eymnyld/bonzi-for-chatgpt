@@ -36,10 +36,10 @@ Install the Bonzi pet in the Codex desktop app. Perform the entire operation wit
 Use the immutable v1.0.0 GitHub release. Download only these two files:
 
 1. pet.json
-https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
+https://raw.githubusercontent.com/eymnyld/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
 
 2. spritesheet.webp
-https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
+https://raw.githubusercontent.com/eymnyld/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
 
 Expected SHA-256 values:
 - pet.json: 5aab8bddc9e0cd01042b6667843abe1a38bb049b94c9e1bbc081bc57bd5e9a0b
@@ -57,7 +57,7 @@ The same prompt is available as [INSTALL-PROMPT-EN.txt](INSTALL-PROMPT-EN.txt). 
 ## Alternative: install through Codex plugins
 
 ```bash
-codex plugin marketplace add eymndev/bonzi-for-chatgpt
+codex plugin marketplace add eymnyld/bonzi-for-chatgpt
 codex plugin add bonzi-for-chatgpt@bonzi-for-chatgpt
 ```
 
@@ -74,7 +74,7 @@ If the pet is not visible immediately, relaunch the Codex desktop app.
 macOS/Linux:
 
 ```bash
-git clone https://github.com/eymndev/bonzi-for-chatgpt.git
+git clone https://github.com/eymnyld/bonzi-for-chatgpt.git
 cd bonzi-for-chatgpt
 ./install.sh
 ```
@@ -82,7 +82,7 @@ cd bonzi-for-chatgpt
 Windows PowerShell:
 
 ```powershell
-git clone https://github.com/eymndev/bonzi-for-chatgpt.git
+git clone https://github.com/eymnyld/bonzi-for-chatgpt.git
 Set-Location bonzi-for-chatgpt
 ./install.ps1
 ```

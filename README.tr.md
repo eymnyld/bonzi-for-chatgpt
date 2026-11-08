@@ -36,10 +36,10 @@ Codex masaüstü uygulamasına Bonzi petini kur. İşlemin tamamını kendi yere
 Kaynak, GitHub'daki sabit v1.0.0 sürümüdür. Yalnızca şu iki dosyayı indir:
 
 1. pet.json
-https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
+https://raw.githubusercontent.com/eymnyld/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/pet.json
 
 2. spritesheet.webp
-https://raw.githubusercontent.com/eymndev/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
+https://raw.githubusercontent.com/eymnyld/bonzi-for-chatgpt/v1.0.0/plugins/bonzi-for-chatgpt/assets/pet/bonzi/spritesheet.webp
 
 Beklenen SHA-256 değerleri:
 - pet.json: 5aab8bddc9e0cd01042b6667843abe1a38bb049b94c9e1bbc081bc57bd5e9a0b
@@ -57,7 +57,7 @@ Aynı prompt ayrı dosya olarak da bulunur: [INSTALL-PROMPT-TR.txt](INSTALL-PROM
 ## Alternatif: Codex plugin olarak kurulum
 
 ```bash
-codex plugin marketplace add eymndev/bonzi-for-chatgpt
+codex plugin marketplace add eymnyld/bonzi-for-chatgpt
 codex plugin add bonzi-for-chatgpt@bonzi-for-chatgpt
 ```
 
@@ -74,7 +74,7 @@ Pet hemen görünmezse Codex masaüstü uygulamasını yeniden başlat.
 macOS/Linux:
 
 ```bash
-git clone https://github.com/eymndev/bonzi-for-chatgpt.git
+git clone https://github.com/eymnyld/bonzi-for-chatgpt.git
 cd bonzi-for-chatgpt
 ./install.sh
 ```
@@ -82,7 +82,7 @@ cd bonzi-for-chatgpt
 Windows PowerShell:
 
 ```powershell
-git clone https://github.com/eymndev/bonzi-for-chatgpt.git
+git clone https://github.com/eymnyld/bonzi-for-chatgpt.git
 Set-Location bonzi-for-chatgpt
 ./install.ps1
 ```

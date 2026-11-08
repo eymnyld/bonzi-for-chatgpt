@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Install a validated animated Bonzi pet in the Codex desktop app.",
   "author": {
-    "name": "eymndev",
-    "url": "https://github.com/eymndev"
+    "name": "eymnyld",
+    "url": "https://github.com/eymnyld"
   },
-  "homepage": "https://github.com/eymndev/bonzi-for-chatgpt",
-  "repository": "https://github.com/eymndev/bonzi-for-chatgpt",
+  "homepage": "https://github.com/eymnyld/bonzi-for-chatgpt",
+  "repository": "https://github.com/eymnyld/bonzi-for-chatgpt",
   "license": "MIT",
   "keywords": ["bonzi", "codex", "chatgpt", "pet", "spritesheet"],
   "skills": "./skills/",
@@ -15,10 +15,10 @@
     "displayName": "Bonzi for Codex",
     "shortDescription": "Install the bundled animated Bonzi pet.",
     "longDescription": "Adds a local-only guided installer for a validated Codex v2 Bonzi pet with nine standard animation states and sixteen look directions.",
-    "developerName": "eymndev",
+    "developerName": "eymnyld",
     "category": "Productivity",
     "capabilities": ["Local files"],
-    "websiteURL": "https://github.com/eymndev/bonzi-for-chatgpt",
+    "websiteURL": "https://github.com/eymnyld/bonzi-for-chatgpt",
     "defaultPrompt": [
       "Install the bundled Bonzi pet into Codex and verify it.",
       "Check whether the bundled Bonzi pet is installed correctly."
